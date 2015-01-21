@@ -9,6 +9,6 @@ def DecToHex():
 	else:
 		temp  = str(hex(num))
 		result = temp.split('x')
-		print(result[1])
+		print(result[1].upper())
 
 DecToHex() 
